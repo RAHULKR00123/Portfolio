@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .nav_buttons:hover{
+        color: yellow;
+        transform: scale(1.05);
+    }
+    .bounce:hover{
+        transform: scale(1.05);
+    } 
+    </style>
+</head>
+<body class="bg-black">
+    <div class="bg-transparent h-[120px] p-[25px] pt-[20px]">
+        <div class="flex justify-between pl-[20px] pr-[20px]">
+            <div>
+                <div class="logo font-mono text-[40px] text-white pt-[0px]" style="font-family: fantasy;">RAHUL</div>
+            </div>
+            <div class="flex gap-[30px] pt-[20px] " style="font-family: cursive;">
+                <div class=" p-[5px] text-white nav_buttons" ><a href="index.html">Home</a></div>
+                <div class=" p-[5px] text-white nav_buttons">About</div>
+                <div class=" p-[5px] text-white nav_buttons"><a href="skills.html">Skills</a></div>
+                <div class=" p-[5px] text-white nav_buttons">Education</div>
+                <div class=" p-[5px] text-white nav_buttons">Work</div>
+                <div class=" p-[5px] text-white nav_buttons">Experience</div>
+                <div class=" p-[5px] text-white nav_buttons" style="border-bottom: 2px solid;border-color: yellow;">Contact</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------header------------ -->
+
+    <!-- __________________ CONTACT FORM __________________ -->
+
+<div class="bg-black text-white px-[45px] py-[60px]">
+
+    
+    <div class="text-center mb-[40px]">
+        <div class="text-[35px] font-bold">
+            Contact <span class="text-yellow-500">Me</span>
+        </div>
+        <div class="text-gray-400 text-[14px] mt-[5px]">
+            Let's connect and build something amazing together 🚀
+        </div>
+    </div>
+
+ 
+    <form class="max-w-[600px] mx-auto flex flex-col gap-[20px]">
+
+
+        <input 
+            type="text" 
+            placeholder="Your Name"
+            class="bg-[#111] border border-gray-700 p-[12px] rounded-[5px] focus:outline-none focus:border-yellow-500"
+        >
+
+       
+        <input 
+            type="email" 
+            placeholder="Your Email"
+            class="bg-[#111] border border-gray-700 p-[12px] rounded-[5px] focus:outline-none focus:border-yellow-500"
+        >
+
+    
+        <input 
+            type="text" 
+            placeholder="Subject"
+            class="bg-[#111] border border-gray-700 p-[12px] rounded-[5px] focus:outline-none focus:border-yellow-500"
+        >
+
+     
+        <textarea 
+            rows="5"
+            placeholder="Your Message"
+            class="bg-[#111] border border-gray-700 p-[12px] rounded-[5px] focus:outline-none focus:border-yellow-500 resize-none"
+        ></textarea>
+
+   
+        <button 
+            type="submit"
+            class="bg-purple-500 hover:bg-yellow-500 transition duration-300 p-[12px] rounded-[5px] text-white font-semibold bounce"
+        >
+            Send Message
+        </button>
+
+    </form>
+
+</div>
+
+    <!-- __________________ FOOTER __________________ -->
+
+<div class="bg-[#0a0a0a] mt-[80px] border-t border-yellow-500">
+    
+    <div class="flex flex-col items-center justify-center text-center p-[30px] text-white">
+      
+        <div class="text-[30px] font-bold text-yellow-500" style="font-family: fantasy;">
+            RAHUL
+        </div>
+
+
+        <div class="text-gray-400 text-[14px] mt-[10px]">
+            Building modern and user-friendly web experiences 🚀
+        </div>
+
+
+        <div class="mt-[15px] text-[15px]">
+            <span class="text-purple-400">Contact:</span>
+            <a href="mailto:your_email@example.com" class="text-yellow-500 hover:underline">
+                your_email@example.com
+            </a>
+        </div>
+
+
+        <div class="flex gap-[20px] mt-[15px] text-[14px]">
+            <div class="nav_buttons cursor-pointer">LinkedIn</div>
+            <div class="nav_buttons cursor-pointer">GitHub</div>
+            <div class="nav_buttons cursor-pointer">Instagram</div>
+        </div>
+
+
+        <div class="mt-[20px] text-gray-500 text-[12px]">
+            © 2026 Rahul | All Rights Reserved
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
